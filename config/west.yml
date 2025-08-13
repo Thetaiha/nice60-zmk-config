@@ -6,7 +6,6 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: main
-          snippet: studio-rpc-usb-uart
       import: app/west.yml
   self:
     path: config
